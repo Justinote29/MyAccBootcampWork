@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height:100vh;
+}
+
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: black;
+}
+
+
+#section1{ 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    color:white;
+}
+
+
+button{
+    align-self: center;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+#section2content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+}
+
+#section2{
+    height:100vh;
+}
+
+#section2content p {
+    max-width: 500px;
+    align-self: center;
+    font-size: 12px;
+}
+#section3{
+    height:100vh;
+}
+
+#section3content{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        padding-left: 15vw;
+        padding-right:15vw;
+}
+
+#section3content p{
+    max-width: 500px;
+    align-self: center;
+    font-size:12px;
+}
+
+#icons{
+    display:flex;
+    justify-content: center;
+}
+
+.icon{
+    padding:2.8rem;
+    font-size: 75px;
+}
+
+.content{
+    padding:50px 25px;
+}
+.content h2{
+    text-align:center;
+}
+
+#dollar{
+    padding-top:165px;
+
+}
+
+hr{
+    width:40vw;
+    align-self: center;
+}
+
+.section4{
+    padding: 50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    }
+
+.section4content{
+    width: 50vw;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax-mirror {
+    z-index: 1
+}

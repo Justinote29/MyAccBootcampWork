@@ -1,0 +1,19 @@
+
+
+.code{
+    border:2px solid red;
+    height:250px;
+    width:250px;
+    overflow:hidden;
+    background-image: url(computer-code.jpeg);
+    background-size: cover;
+    margin:0 auto;
+}
+
+h1{
+    color:green;
+}
+
+.p3{
+    color:red;
+}

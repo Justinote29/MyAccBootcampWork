@@ -1,0 +1,31 @@
+.image {
+  width: 13vw;
+  margin: 1rem;
+}
+
+ul {
+  margin-left: 2rem;
+  /* list-style: none; */
+}
+
+h2,
+h3,
+ul {
+  /* margin: 1rem; */
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 1; */
+  border: 1;
+}
+
+.card {
+  width: 40vw;
+  border: 1px solid grey;
+  background-color: rgb(63, 59, 59);
+  color: white;
+  text-align: left;
+}

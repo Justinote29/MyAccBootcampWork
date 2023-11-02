@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+h1{
+ width: 33.33vw;
+ display:flex;
+}
+
+#one{
+    background-color: green;
+    
+}
+
+#two{
+    background-color:yellow;
+    justify-content: center;
+    align-self:center;
+}
+
+#three{
+    background-color:red;
+    justify-content:flex-end;
+    align-self:flex-end;
+    
+}

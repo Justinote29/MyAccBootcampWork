@@ -1,0 +1,11 @@
+<%#iterating over the data array and pulling out the name, description, and age for each object in the array. %>
+<div class="container">
+    <% data.forEach((el)=>{ %>
+    <div class="card">
+        <h1>Name: <%= el.name%></h1>
+        <p>Description: <%= el.description%></p>
+        <p>Age: <%= el.age%></p>
+    </div>
+
+    <%})%>
+</div>

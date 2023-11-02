@@ -1,0 +1,33 @@
+body{
+    background-color: darkslateblue;
+}
+
+h1{
+    color:aquamarine;
+    font-size:48px;
+}
+
+#burger{
+    background-color:aqua
+}
+
+#onions{
+    background-color:blueviolet
+}
+
+#fries{
+    background-color:beige
+}
+
+
+.strawberry{
+    background-color:red
+}
+
+.blueberry{
+    background-color: blue;
+}
+
+div{
+    width:50%;
+}

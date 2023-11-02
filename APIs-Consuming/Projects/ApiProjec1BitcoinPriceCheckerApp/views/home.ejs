@@ -1,0 +1,17 @@
+<%- include("./partials/header.ejs")%>
+
+<div class="container">
+    <h1>BitCoin Price App</h1>
+    <form action="/quote" method="get">
+        <input type="radio" name="currency" id="USD" value="USD">
+        <label for="USD">USD</label>
+        <input type="radio" name="currency" id="GBP" value="GBP">
+        <label for="GBP">GBP</label>
+        <input type="radio" name="currency" id="EUR" value="EUR">
+        <label for="EUR">EUR</label>
+        <br>
+        <button class="btn btn-lg btn-primary border border-white" type="submit">Get Price</button>
+    </form>
+</div>
+
+<%- include("./partials/footer.ejs")%>

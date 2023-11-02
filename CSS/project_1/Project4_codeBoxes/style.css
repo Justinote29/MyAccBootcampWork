@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+div{
+    width:300px;
+    height:200px;
+    background-clip:padding-box;
+    background-size:cover;
+    border: 4px solid red;
+}
+
+.one{
+    box-shadow:inset 0 8px 0 30px blue;
+    background-image: url("computer-code2.jpeg");
+}
+
+.two{
+    box-shadow:inset 0 8px 0 30px green;
+    background-image: url("computer-code2.jpeg");
+    align-self:center;
+}
+
+
+.three{
+    box-shadow:inset 0 8px 0 30px orange;
+    background-image: url("computer-code2.jpeg");
+    align-self:flex-end;
+}

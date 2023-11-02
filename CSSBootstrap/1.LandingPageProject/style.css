@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+
+}
+
+.navbar{
+    margin:10px;
+    font-size:24px;
+}
+
+.navbar-brand{
+    font-size:larger;
+}
+
+#background {
+    background: url("img/background.jpg") center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%
+}
+
+#message {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message h1{
+font-size:3rem;
+}
+

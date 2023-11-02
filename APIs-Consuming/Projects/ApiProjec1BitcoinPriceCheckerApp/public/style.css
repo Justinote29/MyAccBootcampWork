@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(18, 214, 228);
+}
+.container {
+  margin: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quotes {
+  margin-top: 15px;
+}
+
+.btn {
+  margin-top: 15px;
+}

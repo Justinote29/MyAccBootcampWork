@@ -1,0 +1,42 @@
+.container {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home,
+.movies {
+  text-align: center;
+  color: white;
+}
+
+.movies {
+  margin-top: 50px;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./myke-simon-atsUqIm3wxo-unsplash.jpg");
+  background-size: cover;
+}
+
+.moviesContainer {
+  background-color: rgba(240, 248, 255, 0.455);
+  color: black;
+  max-width: 800px;
+}
+
+.movieContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,28 @@
+
+body{
+    margin:auto;
+}
+
+header{
+    background-color: lightgray;
+    width: 100%;
+    height: 150px;
+    padding-left: 50px;
+    padding-top:30px;
+}
+
+#formDiv{
+    padding-left: 50px;
+}
+
+input{
+    width: 500px;
+}
+
+.error-msg{
+    color:red;
+}
+
+.inputError{
+    background-color: #faffbd;
+}

@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid grey;
+  width: 250px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 2px grey;
+  padding: 5px;
+}

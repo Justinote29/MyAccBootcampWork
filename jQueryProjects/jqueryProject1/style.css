@@ -1,0 +1,9 @@
+.box{
+    border: solid blue 3px;
+    background-color: cyan;
+}
+
+.imageBox{
+    border: solid green 10px;
+}
+

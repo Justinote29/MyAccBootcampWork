@@ -1,0 +1,16 @@
+<%-include("./partials/header.ejs")%>
+
+<div class="container">
+    <h1 class="home">
+        <p>IN THE MOOD TO CATCH A FLICK?
+            <br> SEE WHAT MOVIES ARE PLAYING NOW!
+        </p>
+    </h1>
+
+    <%#on submit sending info to movie route where we'll do the api call.%>
+    <form action="/movies" method="get">
+        <button class="btn btn-lg btn-warning" type="submit" formaction="/movies"> Show me a list of Movies!</button>
+</div>
+</form>
+
+<%-include("./partials/footer.ejs")%>

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: green url('./assets/marek-piwnicki-a8LWZ7TNLGE-unsplash.jpg') no-repeat fixed center;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+}
+
+#container{
+    width: 400px;
+    margin: 10vh auto;
+    border: 2px solid black;
+    box-shadow: 3px 6px 10px rgba(0,0,0,0.5);
+    background-color: #758174ca;
+}
+
+h1{
+    background-color: #eeeeee69;
+    color: #303030;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+li{
+    line-height: 40px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+li:nth-child(2n){
+    background-color: #30303052;
+}
+
+input{
+    background-color: #364496b7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    color: #534d4dbf;
+    font-size: 18px;
+}
+input:focus{
+    background-color:rgba(255, 255, 255, 0.799);
+    border: 3px solid #eeeeee;
+    outline: none;
+}
+
+span{
+    background-color: rgb(45,5,5,);
+    color: #364496b7;
+    height: 40px;
+    margin: 0 0 0 20px;
+    opacity: 0;
+    padding: 3px 15px;
+    float: right;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover span{
+    opacity:1;
+}

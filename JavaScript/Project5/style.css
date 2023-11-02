@@ -1,0 +1,168 @@
+body {
+    background-color: #eaf0f2;
+    color: #47474a;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    transition: all 0.6s ease-in-out;
+}
+
+
+
+/* not sure about the transition property, doesn't seem to be working correctly */
+.navbar {
+    background-color: #47474a;
+    color: white;
+    overflow: hidden;
+    font-size: 25px;
+    background-color: #263238;
+    height: 75px;
+}
+
+.logo {
+    font-size: 42px;
+    padding: 15px 35px;
+    line-height: 35px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #546e7a
+}
+
+
+.navList {
+    display: flex;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    padding: 15px 20px;
+}
+
+.dropbtn {
+    display: flex;
+    height: 45px;
+    line-height: 45px;
+    padding: 15px 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #263238;
+
+}
+
+.welcome {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.pulldownList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 470px;
+    background-color: #47474a;
+    color: white;
+    font-size: 24px;
+    padding: 15px 10px;
+
+}
+
+
+
+#treat {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 0;
+    padding:0;
+}
+
+
+
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+footer {
+    background-color: #263238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 50px;
+    margin-top: 75px;
+
+}
+
+.news {
+    color: #B0BEC5;
+    font-size: 28px;
+}
+
+.imgBtn{
+    margin:0;
+    padding:0;
+    width:100px;
+    display:inline;
+    
+}
+
+.copyright {
+    color: #B0BEC5;
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: #CFD8DC;
+}

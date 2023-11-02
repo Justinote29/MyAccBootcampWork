@@ -1,0 +1,11 @@
+<%- include("partials/header") %>
+
+<%#look over the array and pull out the name, occupation and company for each object in the array and render it in a
+    paragraph on the job page. %>
+
+<% data.forEach((element)=>{ %>
+<p> <%= element.name %> is a <%= element.occupation %> at <%= element.company  %>.</p>
+
+<%}) %>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,24 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url("img/background1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 54px;
+    text-align: center;
+}
+
+
+.box{
+    width:400px;
+    height:400px;
+    margin-top:30vh;
+
+}

@@ -1,0 +1,19 @@
+.jumbotron {
+  text-align: center;
+  background-color: rgb(237, 234, 234);
+  height: 250px;
+  padding-top: 25px;
+}
+.breadcrumb {
+  background-color: rgb(237, 234, 234);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact {
+  text-align: center;
+  height: 250px;
+  padding-top: 25px;
+}

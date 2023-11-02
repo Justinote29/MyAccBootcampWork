@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.deleteBtn {
+  padding: 5px 10px;
+  border: 1px solid gray;
+  margin-left: 10px;
+}

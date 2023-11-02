@@ -1,0 +1,21 @@
+<%-include("./partials/header.ejs")%>
+
+<div>
+    <h1 class="movies">Now Playing at a Theater Near You:</h1>
+</div>
+
+<%# iterating over the array of object (data) to produce a list of the now playing movies with their title, overview, poster image, and rating   %>
+<div class="container moviesContainer">
+    <%data.forEach((el)=>{%>
+    <div class="movieContainer">
+        <h1><%=el.title %></h1>
+        <p><%=el.overview%></p>
+        <% let image = "https://image.tmdb.org/t/p/w300"+ el.poster_path %>
+        <img src="<%=image%>" alt="">
+        Rating <%=el.vote_average%> out of 10 stars
+    </div>
+    <%})%>
+</div>
+
+
+<%-include("./partials/footer.ejs")%>

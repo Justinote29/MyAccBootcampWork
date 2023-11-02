@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Home Page</h1>
+
+    <!-- <form action="/nowplaying" method="get">
+        <button type="submit">Get Now Playing</button>
+    </form> -->
+    <%# //form for both movie search and get now playing.  with formaction- we can connect the nowplaying button within the same from. formmethod also can help us have more form control  %>
+    <form action="/getmovies" method="get">
+        <label for="titlesearch">Enter a Movie Title:</label>
+        <input type="text" name="titlesearch" id="titlesearch">
+        <button type="submit">Search</button>
+        <button type="submit" formaction="/nowplaying">Get Now Playing</button>
+    </form>
+</body>
+
+</html>

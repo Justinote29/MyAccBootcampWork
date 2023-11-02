@@ -1,0 +1,14 @@
+<%- include("partials/header") %>
+
+<h1>Shopping List</h1>
+
+<% order.forEach((order)=>{ %>
+<li><%= order %></li>
+<% }); %>
+
+<form action="/finish" method="POST">
+    <input type="text" name="food" placeholder="What do you want?">
+    <button> Add food </button>
+</form>
+
+<%- include("partials/footer") %>
